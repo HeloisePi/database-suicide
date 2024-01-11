@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Biryani-Regular';
+    src: url(/font/Biryani-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Biryani-Bold';
+    src: url(/font/Biryani-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'BebasNeue-Regular';
+    src: url(/font/BebasNeue-Regular.ttf);
+}
+
+
+h1{
+    font-family: 'BebasNeue-Regular';
+}
+
+h3{
+    font-family: 'BebasNeue-Regular';
+}
+
+p{
+    font-family: '/font/Biryani-Regular';
+}
+
+
+.bold{
+    font-family: 'Biryani-Bold';
+}
