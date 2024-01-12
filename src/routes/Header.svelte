@@ -23,7 +23,6 @@ function handleScroll() {
 	console.log('is sticky');
 	links.style.position = 'fixed';
     links.style.top = '0';
-	links.style.backgroundColor = 'white';
 	links.style.left = '50%';
     links.style.transform = 'translateX(-50%)';
 	links.style.width = '95%';
@@ -43,32 +42,42 @@ function handleScroll() {
 <header>
 	<div class="contenaire">
 		<div class="logo">
-			<img src="/favicon.png" alt="logo menu">
+			<img  class="imgLogo" src="/favicon.png" alt="logo menu">
 		</div>
 		<div class="title">
-			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi obcaecati veniam quo similique !</p>
+			<p>Ne restez pas avec vos pensées négative, entourez-vous.</p>
 			<h1>SUICIDE.COM</h1>
-			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi obcaecati veniam quo similique !</p>
+			<p>N’hésitez pas à parler à votre entourage si vous en ressentez le besoin</p>
 		</div>
-		<div class="end"></div>
+		<div class="end">
+			<img class="phone"src="/phone.svg" alt="numero de téléphone">
+			<h1>
+				31 14
+			</h1>
+		</div>
 	</div>
 	<div class="links">
 		<div class="">
-			<a href="#">Articles</a>
+			<a href="#"><h3>Mortalité en France</h3></a>
 		</div>
 		<div class="">
-			<a href="#">Articles</a>
+			<a href="#"><h3>Âge et Genre</h3></a>
 		</div>
 		<div class="">
-			<a href="#">Articles</a>
+			<a href="#"><h3>Passage à l'acte</h3></a>
 		</div>
 		<div class="last">
-			<a href="#">Articles</a>
+			<a href="#"><h3>VigilanS</h3></a>
 		</div>
 	</div>
 </header>
 
 <style>
+
+	h3{
+		font-size: 25px;
+		text-align: center;
+	}
 	header {
 		position: relative;
 		width: 100vw;
@@ -89,23 +98,41 @@ function handleScroll() {
 
 	.logo {
 		border-right: 3px solid black;
-		width: 10%;
+		width: 20%;
 		height: 100%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 	}
 
-	img {
+	.imgLogo {
 		border: 3px solid black;
-		width: 70%;
+		/*max-width: 50%;*/
+		height: 70%;
+	}
+@media screen and (max-width: 820px) {
+	.imgLogo {
+		max-width: 50%;
 		height: fit-content;
 	}
+}
 
 	.end {
 		border-left: 3px solid black;
 		height: 100%;
-		width: 10%;
+		width: 20%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	@media screen and (max-width: 620px) {
+		.end {
+		flex-direction: column;
+	}
+}
+	.phone{
+		width: 30px;
 	}
 
 	.links {
@@ -120,6 +147,9 @@ function handleScroll() {
 		position: relative;
 		top: 0;
 		transition: width ease-in-out 50ms;
+		background-image:url(/backgroundObject.png);
+        background-size: contain;
+        background-repeat: repeat;
 	}
 
 	.links div {
@@ -138,4 +168,14 @@ function handleScroll() {
 	.links .last {
 		border: 0;
 	}
+	p{
+		text-align: center;
+	}
+
+
+	@media screen and (max-width: 900px) {
+	h3{
+		font-size: 20px;
+	}
+}
 </style>
