@@ -6,6 +6,8 @@
 <div class="app">
 	<Header />
 
+	<h1>Suidata</h1>
+
 	<main>
 		<slot />
 	</main>
@@ -16,6 +18,9 @@
 </div>
 
 <style>
+	h1{
+		margin-top: 3rem;
+	}
 	.app {
 		display: flex;
 		flex-direction: column;
