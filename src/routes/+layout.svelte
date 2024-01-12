@@ -5,15 +5,12 @@
 
 <div class="app">
 	<Header />
-
-	<h1>Suidata</h1>
-
 	<main>
 		<slot />
 	</main>
 
 	<footer>
-		<p>© 2023 Suidata.com - Tous droits réservés</p>
+		<p>© 2023 Suidata - Tous droits réservés</p>
 	</footer>
 </div>
 

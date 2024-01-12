@@ -46,7 +46,7 @@ function handleScroll() {
 		</div>
 		<div class="title">
 			<p>Ne restez pas avec vos pensées négative, entourez-vous.</p>
-			<h1>SUICIDE.COM</h1>
+			<h1>Suidata</h1>
 			<p>N’hésitez pas à parler à votre entourage si vous en ressentez le besoin</p>
 		</div>
 		<div class="end">
