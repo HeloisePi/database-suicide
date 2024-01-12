@@ -13,7 +13,7 @@
 	</main>
 
 	<footer>
-		<p>© 2023 suicide.com - Tous droits réservés</p>
+		<p>© 2023 Suidata.com - Tous droits réservés</p>
 	</footer>
 </div>
 

@@ -52,22 +52,24 @@ function handleScroll() {
 		<div class="end">
 			<img class="phone"src="/phone.svg" alt="numero de téléphone">
 			<h1>
+				<a href="tel:+3114">
 				31 14
+			</a>
 			</h1>
 		</div>
 	</div>
 	<div class="links">
 		<div class="">
-			<a href="#"><h3>Mortalité en France</h3></a>
+			<a href="#1"><h3>Mortalité en France</h3></a>
 		</div>
 		<div class="">
-			<a href="#"><h3>Âge et Genre</h3></a>
+			<a href="#2"><h3>Âge et Genre</h3></a>
 		</div>
 		<div class="">
-			<a href="#"><h3>Passage à l'acte</h3></a>
+			<a href="#3"><h3>Passage à l'acte</h3></a>
 		</div>
 		<div class="last">
-			<a href="#"><h3>VigilanS</h3></a>
+			<a href="#4"><h3>VigilanS</h3></a>
 		</div>
 	</div>
 </header>

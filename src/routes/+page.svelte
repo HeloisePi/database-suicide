@@ -13,7 +13,7 @@
 	<p>La levée des restrictions du Covid-19 offre un souffle de soulagement, mais la transition post-confinement n'est pas sans défis pour la santé mentale. Reconnaître les émotions complexes qui persistent est essentiel. Entourer soi-même de soutien social et établir des routines saines, incluant une alimentation équilibrée et suffisamment de sommeil, est crucial.</p>
 </section>
 
-<section>
+<section id="1">
 	<Articles
 	imgSrc="/articleEx.png"
 	imgAlt="20% de mort par suicide et 80% d'autre mort"
@@ -24,7 +24,7 @@ Même si celle-ci présente un plutôt bas taux de pensées suicidaires comparé
 
 </Articles>
 </section>
-<section>
+<section id="2">
 	<Articles
 	imgSrc="/article2.png"
 	imgAlt="Nombres de suicide en france en 2017 par âge et par genre"
@@ -33,7 +33,7 @@ Même si celle-ci présente un plutôt bas taux de pensées suicidaires comparé
 	<br><br> Ces chiffres mettent en lumière l'importance de la <span class="bold"> sensibilisation, </span> et de l'accès aux services de <span class="bold">santé mentale, </span> ainsi que la nécessité de cibler des groupes spécifiques pour une intervention préventive. Comprendre les facteurs de stress associés à chaque tranche d'âge et sexe peut contribuer à élaborer <span class="bold">des stratégies plus efficaces </span> pour prévenir le suicide et <span class="bold">promouvoir le bien-être mental. </span><br><br>
 	En résumé, une approche holistique et adaptée aux différents groupes démographiques est essentielle pour lutter contre ce grave problème de santé publique.</Articles>
 </section>
-<section>
+<section id="3">
 	<Articles
 	imgSrc="/article3.png"
 	imgAlt="Nombre moyen mensuel de passages aux urgences liés à des gestes suicidaires chez les 11 à 17 ans"
@@ -54,7 +54,7 @@ Au niveau <span class="bold">national</span>, ce phénomène est sans retentisse
 </Articles>
 </section>
 
-<section>
+<section id="4">
 	<Articles
 	imgSrc="/article4.png"
 	imgAlt="Personnes inscrite à VigilanS"
@@ -75,12 +75,13 @@ Au niveau <span class="bold">national</span>, ce phénomène est sans retentisse
 </section>
 <style>
 	section{
-		margin-top: 10rem;
+		padding-top: 10rem;
 	}
 
 	.prevention{
 		border: 3px solid black;
 		padding: 2rem;
+		margin-top: 10rem;
 	}
 
 </style>
